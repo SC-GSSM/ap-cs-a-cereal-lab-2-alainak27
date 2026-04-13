@@ -1,24 +1,24 @@
 /**
  * Cereal.java  
  *
- * @author – Your name
- * @author – Class period 
- * 
+ * @author – Alaina King
+ * @author – 10am MWF
+ *
  */
 public class Cereal
 {
-   private String name; 
-   private int calories; 
-   private double fiber, carbs, cups; 
+   private String name;
+   private int calories;
+   private double fiber, carbs, cups;
 
-   public Cereal(String initName, int initCal, double initFiber, 
+   public Cereal(String initName, int initCal, double initFiber,
                  double initCarbs,  double initCups)
    {
-      name = initName; 
-      calories = initCal; 
-      fiber = initFiber; 
+      name = initName;
+      calories = initCal;
+      fiber = initFiber;
       carbs = initCarbs;
-      cups = initCups; 
+      cups = initCups;
    }
    /* Accessor method returns the value stored in the instance variable name. */
    public String getName()
@@ -32,15 +32,15 @@ public class Cereal
       return carbs;
    }
 
-   /* Accessor method returns the value stored in the instance variable cups. */       
+   /* Accessor method returns the value stored in the instance variable cups. */      
    public double getCups()
-   { 
+   {
       return cups;
    }
 
    /* Accessor method returns the value stored in the instance variable fiber. */
-   public double getFiber() 
-   { 
+   public double getFiber()
+   {
       return fiber;
    }
 
@@ -52,11 +52,11 @@ public class Cereal
    }
 
 
-   /* toString method returns the values stored in the instance variables   
+   /* toString method returns the values stored in the instance variables  
       concatenated in a sentence. */
    public String toString()
    {
-      return "Cereal: " + name + " has: " + calories 
+      return "Cereal: " + name + " has: " + calories
               + "calories, in a " + cups + " cup serving, with "
               + fiber + "grams of fiber and "
               + carbs +"grams of carbohydrates";
